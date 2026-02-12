@@ -419,7 +419,7 @@ MACRO tt_um_analog_example
     DIRECTION INOUT ;
     USE POWER ;
     PORT
-      LAYER Metal4 ;
+      LAYER TopMetal1 ;
         RECT 1.000 5.000 3.400 308.000 ;
     END
   END VDPWR
@@ -427,8 +427,8 @@ MACRO tt_um_analog_example
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
-      LAYER Metal4 ;
-        RECT 4.000 5.000 6.400 308.000 ;
+      LAYER TopMetal1 ;
+        RECT 6.000 5.000 8.400 308.000 ;
     END
   END VGND
 END tt_um_analog_example
